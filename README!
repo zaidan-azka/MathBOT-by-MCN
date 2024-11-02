@@ -1,0 +1,16 @@
+Hi everyone, this directory for your discord to get automation give question about math
+If you want to use our bot system, please follow the instructions so that the bot can run smoothly
+
+1. Create directory/Folder in your PC/Server
+2. run Terminal and run command :
+ npm init // click enter on all questions if you don't need it
+ npm install discord.js sqlite3
+3. and done! your math bot for discord server completely successful
+4. and last step, run : node index.js // is main file in this directory
+
+explanation :
+- Questions will always be sent by the bot for 5 minutes at a time
+- If the bot has asked a question, the bot will give you 20 seconds to think and answer immediately
+- All correct questions will get 1 point
+- If a member has points in the database that have reached 1000, then the member will get the Math Master role
+- you can also change the role name and adjust it to the role you created
